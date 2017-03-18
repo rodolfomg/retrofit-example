@@ -42,7 +42,8 @@
             <Button
                 android:id="@+id/login"
                 style="@style/button"
-                android:text="@string/login">
+                android:text="@string/login"
+                android:onClick="onClickLogin">
             </Button>
         </LinearLayout>
 
