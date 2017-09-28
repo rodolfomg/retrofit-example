@@ -8,8 +8,11 @@ public class User {
     private int id;
     private String username;
     private String password;
+    private String email;
+    private long phone;
 
     public User() {
+        this.id = 0;
     }
 
     public int getId() {
@@ -34,5 +37,21 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(long phone) {
+        this.phone = phone;
     }
 }
